@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(178, 175, 175));
+}
+
+.container-pesquisa{
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+.container-pesquisa input{
+    flex-grow: 1;
+    padding: 12;
+    font-size: 36px;
+}
+
+.container-pesquisa button{
+    font-size: 20px ;
+}
+
+.container-galeria{
+    display: column;
+    column-count: 6;
+    padding: 20px;
+    
+}
+
+.moldeFoto{
+    width: 100%;
+    margin-bottom: 16px;
+}
